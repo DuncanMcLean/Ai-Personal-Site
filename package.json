@@ -1,31 +1,15 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
-  "description": "A modern personal website with contact form functionality",
-  "main": "server.js",
+  "description": "A modern personal website",
+  "main": "index.html",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "python -m http.server 8000"
   },
   "keywords": [
     "personal-website",
-    "portfolio",
-    "contact-form"
+    "portfolio"
   ],
-  "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "body-parser": "^1.20.2",
-    "nodemailer": "^6.9.1",
-    "@sendgrid/mail": "^7.7.0",
-    "dotenv": "^16.0.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  }
+  "author": "Duncan McLean",
+  "license": "MIT"
 } 

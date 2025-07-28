@@ -39,141 +39,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Contact Form Handling
-const contactForm = document.getElementById('contactForm');
-
-if (contactForm) {
-    contactForm.addEventListener('submit', async function(e) {
-    e.preventDefault();
-    
-    // Get form data
-    const formData = new FormData(this);
-    const contactData = {
-        name: formData.get('name'),
-        email: formData.get('email'),
-        subject: formData.get('subject'),
-        message: formData.get('message')
-    };
-    
-    // Show loading state
-    const submitBtn = this.querySelector('button[type="submit"]');
-    const originalText = submitBtn.textContent;
-    submitBtn.textContent = 'Sending...';
-    submitBtn.disabled = true;
-    
-    try {
-        // Send data to backend
-        const response = await fetch('/api/contact', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(contactData)
-        });
-        
-        const result = await response.json();
-        
-        if (result.success) {
-            showNotification(result.message, 'success');
-            this.reset();
-        } else {
-            showNotification(result.message || 'Something went wrong. Please try again.', 'error');
-        }
-    } catch (error) {
-        console.error('Contact form error:', error);
-        showNotification('Network error. Please check your connection and try again.', 'error');
-    } finally {
-        // Reset button state
-        submitBtn.textContent = originalText;
-        submitBtn.disabled = false;
-    }
-});
-}
-
-// Notification system
-function showNotification(message, type = 'info') {
-    // Remove existing notifications
-    const existingNotification = document.querySelector('.notification');
-    if (existingNotification) {
-        existingNotification.remove();
-    }
-    
-    // Create notification element
-    const notification = document.createElement('div');
-    notification.className = `notification notification-${type}`;
-    notification.innerHTML = `
-        <div class="notification-content">
-            <span class="notification-message">${message}</span>
-            <button class="notification-close">&times;</button>
-        </div>
-    `;
-    
-    // Add styles
-    notification.style.cssText = `
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        background: ${type === 'success' ? '#28a745' : type === 'error' ? '#dc3545' : '#007bff'};
-        color: white;
-        padding: 1rem 1.5rem;
-        border-radius: 8px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-        z-index: 10000;
-        max-width: 400px;
-        animation: slideIn 0.3s ease;
-    `;
-    
-    // Add animation styles
-    const style = document.createElement('style');
-    style.textContent = `
-        @keyframes slideIn {
-            from {
-                transform: translateX(100%);
-                opacity: 0;
-            }
-            to {
-                transform: translateX(0);
-                opacity: 1;
-            }
-        }
-        .notification-content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 1rem;
-        }
-        .notification-close {
-            background: none;
-            border: none;
-            color: white;
-            font-size: 1.5rem;
-            cursor: pointer;
-            padding: 0;
-            line-height: 1;
-        }
-        .notification-close:hover {
-            opacity: 0.8;
-        }
-    `;
-    document.head.appendChild(style);
-    
-    // Add to page
-    document.body.appendChild(notification);
-    
-    // Close button functionality
-    const closeBtn = notification.querySelector('.notification-close');
-    closeBtn.addEventListener('click', () => {
-        notification.remove();
-    });
-    
-    // Auto remove after 5 seconds
-    setTimeout(() => {
-        if (notification.parentNode) {
-            notification.remove();
-        }
-    }, 5000);
-}
-
 // Intersection Observer for animations
 const observerOptions = {
     threshold: 0.1,
@@ -200,27 +65,6 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
 });
-
-// Form validation
-function validateEmail(email) {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email);
-}
-
-// Add real-time email validation (only if email input exists)
-const emailInput = document.getElementById('email');
-if (emailInput) {
-    emailInput.addEventListener('blur', () => {
-        const email = emailInput.value;
-        if (email && !validateEmail(email)) {
-            emailInput.style.borderColor = '#dc3545';
-            emailInput.setCustomValidity('Please enter a valid email address');
-        } else {
-            emailInput.style.borderColor = '#28a745';
-            emailInput.setCustomValidity('');
-        }
-    });
-}
 
 // Simple typing effect for hero title with live highlighting
 function typeWriter(element, text, speed = 100) {
@@ -251,8 +95,6 @@ function typeWriter(element, text, speed = 100) {
     type();
 }
 
-
-
 // Initialize typing effect when page loads
 document.addEventListener('DOMContentLoaded', () => {
     const heroTitle = document.querySelector('.hero-title');
@@ -268,8 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-
-
 // Add loading animation
 window.addEventListener('load', () => {
     document.body.style.opacity = '0';
@@ -278,4 +118,9 @@ window.addEventListener('load', () => {
     setTimeout(() => {
         document.body.style.opacity = '1';
     }, 100);
+});
+
+// Error handling for debugging
+window.addEventListener('error', (e) => {
+    console.error('Page error:', e.error);
 }); 

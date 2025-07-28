@@ -6,7 +6,7 @@ A modern, minimalistic personal website built with HTML, CSS, and JavaScript. Pe
 
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
 - **Modern UI**: Clean, professional design with smooth animations
-- **Contact Form**: Functional contact form that collects user information
+- **Contact Information**: Direct links to email, GitHub, and LinkedIn
 - **Smooth Scrolling**: Seamless navigation between sections
 - **Mobile Navigation**: Hamburger menu for mobile devices
 - **Interactive Elements**: Hover effects, animations, and visual feedback
