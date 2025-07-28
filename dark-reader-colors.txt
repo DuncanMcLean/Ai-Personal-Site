@@ -1,0 +1,342 @@
+Dark Reader Color Capture
+Generated: 2025-07-28T01:47:58.277Z
+Website: http://localhost:3000/
+
+=== MAIN COLORS ===
+Body Background: rgb(24, 26, 27)
+Body Text: rgb(200, 195, 188)
+
+=== NAVBAR ===
+Background: rgba(24, 26, 27, 0.95)
+Text: rgb(200, 195, 188)
+
+=== SECTIONS ===
+
+=== CARDS ===
+card-0:
+  Background: rgb(24, 26, 27)
+  Text: rgb(200, 195, 188)
+  Shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px
+
+card-1:
+  Background: rgb(24, 26, 27)
+  Text: rgb(200, 195, 188)
+  Shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px
+
+card-2:
+  Background: rgb(24, 26, 27)
+  Text: rgb(200, 195, 188)
+  Shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px
+
+card-3:
+  Background: rgb(24, 26, 27)
+  Text: rgb(200, 195, 188)
+  Shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px
+
+card-4:
+  Background: rgb(24, 26, 27)
+  Text: rgb(200, 195, 188)
+  Shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px
+
+card-5:
+  Background: rgb(24, 26, 27)
+  Text: rgb(200, 195, 188)
+  Shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px 0px
+
+=== TEXT COLORS ===
+h1.hero-title: rgb(232, 230, 227)
+p.hero-subtitle: rgb(232, 230, 227)
+p.hero-description: rgb(232, 230, 227)
+h2.section-title: rgb(200, 195, 188)
+p: rgb(200, 195, 188)
+p: rgb(200, 195, 188)
+h3: rgb(200, 195, 188)
+h2.section-title: rgb(200, 195, 188)
+h3: rgb(200, 195, 188)
+p.company: rgb(51, 162, 255)
+p.period: rgb(168, 160, 149)
+p: rgb(200, 195, 188)
+h3: rgb(200, 195, 188)
+p.company: rgb(51, 162, 255)
+p.period: rgb(168, 160, 149)
+p: rgb(200, 195, 188)
+h3: rgb(200, 195, 188)
+p.company: rgb(51, 162, 255)
+p.period: rgb(168, 160, 149)
+p: rgb(200, 195, 188)
+h2.section-title: rgb(200, 195, 188)
+h3: rgb(200, 195, 188)
+p: rgb(168, 160, 149)
+h3: rgb(200, 195, 188)
+p: rgb(168, 160, 149)
+h3: rgb(200, 195, 188)
+p: rgb(168, 160, 149)
+h2.section-title: rgb(200, 195, 188)
+p: rgb(232, 230, 227)
+
+=== BUTTONS & LINKS ===
+btn btn-primary:
+  Background: rgb(0, 98, 204)
+  Text: rgb(232, 230, 227)
+
+project-link:
+  Background: rgba(0, 0, 0, 0)
+  Text: rgb(51, 162, 255)
+
+project-link:
+  Background: rgba(0, 0, 0, 0)
+  Text: rgb(51, 162, 255)
+
+project-link:
+  Background: rgba(0, 0, 0, 0)
+  Text: rgb(51, 162, 255)
+
+project-link:
+  Background: rgba(0, 0, 0, 0)
+  Text: rgb(51, 162, 255)
+
+project-link:
+  Background: rgba(0, 0, 0, 0)
+  Text: rgb(51, 162, 255)
+
+project-link:
+  Background: rgba(0, 0, 0, 0)
+  Text: rgb(51, 162, 255)
+
+social-link:
+  Background: rgb(0, 98, 204)
+  Text: rgb(232, 230, 227)
+
+social-link:
+  Background: rgb(0, 98, 204)
+  Text: rgb(232, 230, 227)
+
+=== SKILL TAGS ===
+Background: rgb(0, 98, 204)
+Text: rgb(232, 230, 227)
+
+=== RAW DATA ===
+{
+  "timestamp": "2025-07-28T01:47:58.277Z",
+  "website": "http://localhost:3000/",
+  "colors": {
+    "body": {
+      "backgroundColor": "rgb(24, 26, 27)",
+      "color": "rgb(200, 195, 188)"
+    },
+    "navbar": {
+      "backgroundColor": "rgba(24, 26, 27, 0.95)",
+      "color": "rgb(200, 195, 188)"
+    },
+    "home": {
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    "about": {
+      "backgroundColor": "rgb(27, 30, 31)"
+    },
+    "experience": {
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    "projects": {
+      "backgroundColor": "rgb(27, 30, 31)"
+    },
+    "contact": {
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    "card-0": {
+      "backgroundColor": "rgb(24, 26, 27)",
+      "color": "rgb(200, 195, 188)",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 4px 20px 0px"
+    },
+    "card-1": {
+      "backgroundColor": "rgb(24, 26, 27)",
+      "color": "rgb(200, 195, 188)",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 4px 20px 0px"
+    },
+    "card-2": {
+      "backgroundColor": "rgb(24, 26, 27)",
+      "color": "rgb(200, 195, 188)",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 4px 20px 0px"
+    },
+    "card-3": {
+      "backgroundColor": "rgb(24, 26, 27)",
+      "color": "rgb(200, 195, 188)",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 4px 20px 0px"
+    },
+    "card-4": {
+      "backgroundColor": "rgb(24, 26, 27)",
+      "color": "rgb(200, 195, 188)",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 4px 20px 0px"
+    },
+    "card-5": {
+      "backgroundColor": "rgb(24, 26, 27)",
+      "color": "rgb(200, 195, 188)",
+      "boxShadow": "rgba(0, 0, 0, 0.1) 0px 4px 20px 0px"
+    },
+    "text-0": {
+      "selector": "h1.hero-title",
+      "color": "rgb(232, 230, 227)"
+    },
+    "text-1": {
+      "selector": "p.hero-subtitle",
+      "color": "rgb(232, 230, 227)"
+    },
+    "text-2": {
+      "selector": "p.hero-description",
+      "color": "rgb(232, 230, 227)"
+    },
+    "text-3": {
+      "selector": "h2.section-title",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-4": {
+      "selector": "p",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-5": {
+      "selector": "p",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-6": {
+      "selector": "h3",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-7": {
+      "selector": "h2.section-title",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-8": {
+      "selector": "h3",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-9": {
+      "selector": "p.company",
+      "color": "rgb(51, 162, 255)"
+    },
+    "text-10": {
+      "selector": "p.period",
+      "color": "rgb(168, 160, 149)"
+    },
+    "text-11": {
+      "selector": "p",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-12": {
+      "selector": "h3",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-13": {
+      "selector": "p.company",
+      "color": "rgb(51, 162, 255)"
+    },
+    "text-14": {
+      "selector": "p.period",
+      "color": "rgb(168, 160, 149)"
+    },
+    "text-15": {
+      "selector": "p",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-16": {
+      "selector": "h3",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-17": {
+      "selector": "p.company",
+      "color": "rgb(51, 162, 255)"
+    },
+    "text-18": {
+      "selector": "p.period",
+      "color": "rgb(168, 160, 149)"
+    },
+    "text-19": {
+      "selector": "p",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-20": {
+      "selector": "h2.section-title",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-21": {
+      "selector": "h3",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-22": {
+      "selector": "p",
+      "color": "rgb(168, 160, 149)"
+    },
+    "text-23": {
+      "selector": "h3",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-24": {
+      "selector": "p",
+      "color": "rgb(168, 160, 149)"
+    },
+    "text-25": {
+      "selector": "h3",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-26": {
+      "selector": "p",
+      "color": "rgb(168, 160, 149)"
+    },
+    "text-27": {
+      "selector": "h2.section-title",
+      "color": "rgb(200, 195, 188)"
+    },
+    "text-28": {
+      "selector": "p",
+      "color": "rgb(232, 230, 227)"
+    },
+    "button-0": {
+      "selector": "btn btn-primary",
+      "backgroundColor": "rgb(0, 98, 204)",
+      "color": "rgb(232, 230, 227)"
+    },
+    "button-1": {
+      "selector": "project-link",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 162, 255)"
+    },
+    "button-2": {
+      "selector": "project-link",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 162, 255)"
+    },
+    "button-3": {
+      "selector": "project-link",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 162, 255)"
+    },
+    "button-4": {
+      "selector": "project-link",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 162, 255)"
+    },
+    "button-5": {
+      "selector": "project-link",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 162, 255)"
+    },
+    "button-6": {
+      "selector": "project-link",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 162, 255)"
+    },
+    "button-7": {
+      "selector": "social-link",
+      "backgroundColor": "rgb(0, 98, 204)",
+      "color": "rgb(232, 230, 227)"
+    },
+    "button-8": {
+      "selector": "social-link",
+      "backgroundColor": "rgb(0, 98, 204)",
+      "color": "rgb(232, 230, 227)"
+    },
+    "skillTags": {
+      "backgroundColor": "rgb(0, 98, 204)",
+      "color": "rgb(232, 230, 227)"
+    }
+  }
+}
