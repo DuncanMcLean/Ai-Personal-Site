@@ -22,7 +22,7 @@
      - Build output directory: (leave empty)
    - Click "Save and Deploy"
 
-### Option 2: Wrangler CLI
+### Option 2: Wrangler CLI (Alternative)
 
 1. **Install Wrangler**:
    ```bash
@@ -36,8 +36,10 @@
 
 3. **Deploy**:
    ```bash
-   wrangler pages deploy .
+   wrangler pages deploy . --project-name=your-project-name
    ```
+
+**Note**: Replace `your-project-name` with your desired project name.
 
 ## Custom Domain
 
@@ -59,7 +61,6 @@ No environment variables needed for this static site.
 ├── script.js           # JavaScript
 ├── me.jfif            # Profile image
 ├── _redirects          # Cloudflare routing
-├── wrangler.toml       # Cloudflare config
 └── package.json        # Project config
 ```
 
